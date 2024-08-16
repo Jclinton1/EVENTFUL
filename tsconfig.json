@@ -1,0 +1,17 @@
+{
+ 
+      "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "rootDir": ".",
+        "typeRoots": ["./node_modules/@types", "./types"],
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+      },
+      "include": ["src/**/*", "types/**/*" ,"app.ts", "src/config", "src/db", "tests/**/*.ts"],
+      "exclude": ["node_modules"]
+}
+    
